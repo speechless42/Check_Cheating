@@ -1,0 +1,12 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap'); */
+@import './base.css';
+@import "tailwindcss";
+#app {
+  font-family: 'Microsoft JhengHei';
+  max-width: 98vw;
+  background-color: #F28181;
+  margin: 0 auto;
+  padding: 1rem;
+  font-weight: normal;
+}
+
