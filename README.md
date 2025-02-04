@@ -10,3 +10,5 @@
 
 到最後我只好開新的 branch 叫 Web 。
 透過資料下載的方式 然後 Vercel 自動更新 (真她喵方便!!!!(つ´ω`)つ)。
+
+網址如下：https://check-cheating.vercel.app/
