@@ -1,6 +1,6 @@
 {
     "rewrites": [
-        { "source": "/api/:path(.*)", "destination": "https://od.moi.gov.tw" },
+        { "source": "/api/:path(.*)", "destination": "https://od.moi.gov.tw/:path" },
         { "source": "/(.*)", "destination": "/index.html" }
     ]
 }
