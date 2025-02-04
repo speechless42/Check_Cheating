@@ -15,6 +15,7 @@ export const useMyLine_idStore = defineStore('myLine_idStore',()=>{
     //資料爬取與錯誤處理   
     await axios.request(config).then((res)=>{ All_IDs.statuscode = 200;All_IDs.info = res.data;})
     .catch(()=>{All_IDs.statuscode = 500});
+    console.log(All_IDs)
   }
 
   return {All_IDs , Get_All_Line_IDs}
