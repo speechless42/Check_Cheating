@@ -59,11 +59,11 @@
   const isLinecheat = ref('') //綁定輸出結果
   function SearchLineID(){
     //如果數據還在加載當中
-    if(All_IDs.value.info.result.records.length == 0){
+    if(All_IDs.value.info.length == 0){
       isready.value = "還在加載呢!別急~" 
     }
     //執行搜尋
-    const result = All_IDs.value.info.result.records.find((el)=>{return el['帳號'] === InputLineID.value;})
+    const result = All_IDs.value.info.find((el)=>{return el['帳號'] === InputLineID.value;})
     // console.log(result)
     
     if(typeof(result) == "undefined"){

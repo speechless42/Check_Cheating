@@ -54,11 +54,11 @@
   const isWebsitecheat = ref('') //綁定輸出結果
   function SearchWebsite(){
     //如果數據還在加載當中
-    if(All_Web.value.info.result.records.length == 0){
+    if(All_Web.value.info.length == 0){
       isready.value = "還在加載呢!別急~" 
     }
     //執行搜尋
-    const result = All_Web.value.info.result.records.find((el)=>{return el['WEBURL'] === InputWebsite.value;})
+    const result = All_Web.value.info.find((el)=>{return el['WEBURL'] === InputWebsite.value;})
     // console.log(result)
     
     if(typeof(result) == "undefined"){

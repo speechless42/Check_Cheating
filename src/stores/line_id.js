@@ -10,7 +10,7 @@ export const useMyLine_idStore = defineStore('myLine_idStore',()=>{
       method: 'get',
       maxBodyLength: Infinity,
       // baseURL: '/api',
-      url: '/api/A01010000C-001277-053',
+      url: '/LINID.json',
     };
     //資料爬取與錯誤處理   
     await axios.request(config).then((res)=>{ All_IDs.statuscode = 200;All_IDs.info = res.data;})
