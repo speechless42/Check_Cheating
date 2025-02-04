@@ -10,7 +10,6 @@ export const useMyLine_idStore = defineStore('myLine_idStore',()=>{
       method: 'get',
       maxBodyLength: Infinity,
       // baseURL: '/api',
-      headers: { "User-Agent": "Mozilla/5.0" },
       url: '/api/A01010000C-001277-053',
     };
     //資料爬取與錯誤處理   
