@@ -9,7 +9,7 @@ export const useMyWebsiteStore = defineStore('myWebsiteStore',()=>{
     let config = {
       method: 'get',
       maxBodyLength: Infinity,
-      baseURL:'/api',
+      baseURL:import.meta.env.VITE_BASE_URL,
       url: '/api/v1/rest/datastore/A01010000C-002150-013',
     };   
     //資料爬取與錯誤處理
