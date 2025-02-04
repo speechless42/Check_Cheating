@@ -21,7 +21,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://od.moi.gov.tw',
+        target: 'https://od.moi.gov.tw/api/v1/rest/datastore/',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, '')
       }
