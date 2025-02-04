@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/api/*"
+  to = "https://od.moi.gov.tw/api/v1/rest/datastore/:splat"
+  status = 200
