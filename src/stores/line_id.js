@@ -9,7 +9,7 @@ export const useMyLine_idStore = defineStore('myLine_idStore',()=>{
     let config = {
       method: 'get',
       maxBodyLength: Infinity,
-      baseURL: import.meta.env.VITE_BASE_URL,
+      baseURL: 'https://od.moi.gov.tw',
       url: '/api/v1/rest/datastore/A01010000C-001277-053',
     };
     //資料爬取與錯誤處理   
