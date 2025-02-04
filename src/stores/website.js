@@ -10,7 +10,7 @@ export const useMyWebsiteStore = defineStore('myWebsiteStore',()=>{
       method: 'get',
       maxBodyLength: Infinity,
       baseURL:'https://od.moi.gov.tw',
-      url: '/api/v1/rest/datastore/A01010000C-002150-013',
+      url: '/v1/rest/datastore/A01010000C-002150-013',
     };   
     //資料爬取與錯誤處理
     await axios.request(config).then((res)=>{ All_Web.statuscode = 200;All_Web.info = res.data;})
