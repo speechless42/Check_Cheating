@@ -11,8 +11,8 @@ import { RouterView } from 'vue-router'
       <RouterView />
     </main>
     <article class="col-span-full row-span-1 rounded-sm bg-white md:row-span-1 md:col-span-2">
-      <h2 class="text-5xl font-bold">預防詐騙網站</h2>
-      <p class="text-2xl font-bold text-justify leading-[1.5] md:text-4xl">
+      <h2 class="text-5xl font-bold text-black">預防詐騙網站</h2>
+      <p class="text-2xl font-bold text-justify leading-[1.5] md:text-4xl text-black">
         此作品網站串接政府API方便您搜尋是否為詐騙LINEID或者假投資詐騙網站。讓我們一起預防
           <font class="text-3xl text-red-600 md:text-5xl lg:text-9xl">詐騙</font>
       </p>
